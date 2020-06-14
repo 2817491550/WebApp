@@ -1,0 +1,27 @@
+.title {
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image-contenter {
+	background-color: lightskyblue;
+	height: 500px;
+	width: 800px;
+	border: 10px solid black;
+	position: relative;
+}
+.image-contenter img {
+	width: 100%;
+	height: 100%;
+}
+.tran-img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.tran-img:hover {
+	opacity: 1;
+}
