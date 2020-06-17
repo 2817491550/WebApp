@@ -1,0 +1,144 @@
+li,
+li a {
+	list-style: none;
+	display: inline;
+
+	text-decoration: none;
+	color: black;
+	font-size: larger;
+	font-size: 100%;
+
+	padding-right: 2em;
+	text-transform: uppercase;
+}
+ul {
+	float: right;
+	padding-top: 0.5em;
+}
+.join {
+	text-align: center;
+	letter-spacing: 0.05em;
+	word-spacing: 1.2em;
+	padding: 2em;
+	padding-top: 3em;
+	line-height: 2em;
+	color: white;
+
+	text-transform: uppercase;
+}
+.show {
+	border: 2px solid black;
+	height: 500px;
+	background: url(../images/show1.png);
+	background-size: cover;
+}
+li a:hover {
+	color: white;
+}
+.slogan {
+	float: left;
+	padding-right: 2px;
+	padding-left: 1.5em;
+	color: white;
+	font-size: 150%;
+}
+
+#logo {
+	float: left;
+	padding-left: 8%;
+	margin: 0px;
+	padding-top: 0.75em;
+}
+nav {
+	background: rgb(244, 25, 89);
+	height: 5em;
+}
+/*# sourceMappingURL=style.css.map */
+.Login-pub {
+	height: 600px;
+	width: 100%;
+}
+#login-pub {
+	float: left;
+	width: 45%;
+	background: url(../images/show1.jpeg);
+	background-size: cover;
+	border: 10px solid white;
+	border-bottom: none;
+	border-left: none;
+	border-radius: 1.5em;
+	border-right: none;
+	float: left;
+	height: 600px;
+}
+.Login-join {
+	text-align: left;
+	padding-left: 20%;
+
+	line-height: 2.5em;
+	color: whitesmoke;
+	padding-bottom: 4em;
+
+	text-transform: uppercase;
+}
+.Login-brand {
+	text-align: left;
+	padding-left: 20%;
+	padding-top: 2em;
+	padding-bottom: 4em;
+
+	color: white;
+
+	text-transform: uppercase;
+}
+.Login-form {
+	height: 400px;
+	margin-top: 5%;
+	width: 40%;
+
+	float: right;
+	margin-right: 7%;
+	border-radius: 1.5em;
+	border: 10px solid rgb(244, 25, 89);
+}
+form label {
+	color: rgb(244, 25, 89);
+	margin-left: 4em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+	text-align: center;
+	margin-right: 2em;
+}
+#email,
+#password {
+	width: 50%;
+	height: 30px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-bottom: 3px solid rgb(244, 25, 89);
+	border-top: none;
+	border-right: none;
+	font-size: 150%;
+	border-left: none;
+	color: rgb(244, 25, 89);
+	text-align: center;
+	letter-spacing: 0.05em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	outline: none;
+}
+.button {
+	padding: 1em 3em;
+	margin-left: 3em;
+	margin-top: 0em;
+	background: rgb(244, 25, 89);
+	border: none;
+	border-radius: 0.8em;
+	outline: none;
+	color: white;
+	font-size: 140%;
+}
+.button:hover {
+	background: white;
+	color: rgb(244, 25, 89);
+	border: 3px solid rgb(244, 25, 89);
+}
