@@ -1,5 +1,5 @@
-li,
-li a {
+nav li,
+nav li a {
 	list-style: none;
 	display: inline;
 
@@ -57,13 +57,13 @@ nav {
 .Login-pub {
 	height: 600px;
 	width: 100%;
+	background: url(../images/try-2.jpg);
+	background-size: cover;
 }
 #login-pub {
 	float: left;
 	width: 45%;
-	background: url(../images/show1.jpeg);
-	background-size: cover;
-	border: 10px solid white;
+
 	border-bottom: none;
 	border-left: none;
 	border-radius: 1.5em;
@@ -84,7 +84,7 @@ nav {
 .Login-brand {
 	text-align: left;
 	padding-left: 20%;
-	padding-top: 2em;
+	padding-top: 2.5em;
 	padding-bottom: 4em;
 
 	color: white;
@@ -97,12 +97,12 @@ nav {
 	width: 40%;
 
 	float: right;
-	margin-right: 7%;
+	margin-right: 13%;
 	border-radius: 1.5em;
-	border: 10px solid rgb(244, 25, 89);
+	border: 10px solid white;
 }
 form label {
-	color: rgb(244, 25, 89);
+	color: white;
 	margin-left: 4em;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 800;
@@ -115,22 +115,23 @@ form label {
 	height: 30px;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	border-bottom: 3px solid rgb(244, 25, 89);
+	border-bottom: 3px solid white;
 	border-top: none;
 	border-right: none;
 	font-size: 150%;
 	border-left: none;
-	color: rgb(244, 25, 89);
+	color: white;
 	text-align: center;
 	letter-spacing: 0.05em;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	outline: none;
+	background: rgba(255, 255, 255, 0);
 }
 .button {
 	padding: 1em 3em;
 	margin-left: 3em;
 	margin-top: 0em;
-	background: rgb(244, 25, 89);
+	background: rgb(244, 25, 89, 0.6);
 	border: none;
 	border-radius: 0.8em;
 	outline: none;
@@ -138,7 +139,84 @@ form label {
 	font-size: 140%;
 }
 .button:hover {
-	background: white;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	border: 3px solid white;
+}
+
+.home-a {
+	text-decoration: none;
+	color: white;
+}
+.home-a:hover {
 	color: rgb(244, 25, 89);
-	border: 3px solid rgb(244, 25, 89);
+}
+.show-upload h1,
+.show-gallery h1 {
+	color: white;
+
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+.show-upload h3,
+.show-gallery h3 {
+	margin-left: 0em;
+	margin-top: 2em;
+
+	color: white;
+}
+.show-upload,
+.show-gallery {
+	width: 100%;
+	text-align: left;
+	height: 500px;
+}
+.show-gallery {
+	background: url(../images/try-1.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.show-upload {
+	background: url(../images/try-2.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.try-button {
+	padding: 1em 3em;
+	margin-left: 0em;
+	margin-top: 2em;
+	background: rgb(244, 25, 89);
+	border: none;
+	border-radius: 0.8em;
+	outline: none;
+	color: white;
+	font-size: 140%;
+}
+.try-button:hover {
+	color: rgb(244, 25, 89);
+	background: rgba(255, 255, 255, 0);
+
+	border: 5px solid rgb(244, 25, 89);
+}
+footer {
+	background: rgba(25, 25, 25, 0.8);
+	height: 500px;
+	border-top: 10px solid rgba(25, 25, 25, 0.6);
+}
+footer h1 {
+	color: white;
+	padding-top: 2em;
+	margin-left: 2em;
+}
+footer ul {
+	color: whitesmoke;
+	list-style: none;
+	float: left;
+	margin-left: 13em;
+	font-size: 20px;
+}
+footer ul li a {
+	padding-top: 2em;
+	color: white;
+	text-decoration: none;
 }
